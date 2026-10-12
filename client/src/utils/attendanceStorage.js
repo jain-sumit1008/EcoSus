@@ -15,6 +15,23 @@ const SESSIONS_STORAGE_KEY = "svvv_attendance_sessions";
 // Official Registered SVVV Accounts & Role Mappings
 export const REGISTERED_ACCOUNTS = [
   {
+    userId: "USR-STU-100",
+    name: "Sumit Jain",
+    email: "sumitsfbi2454@svvv.edu.in",
+    role: "student",
+    enrollmentNumber: "0827CS221082",
+    department: "Computer Science & Engineering",
+    semester: "Semester 4",
+    batch: "Batch A",
+    enrolledSubjects: [
+      "Network Security Lab",
+      "Database Management Systems",
+      "Software Engineering",
+      "Cloud Computing Architecture",
+      "Data Structures & Algorithms",
+    ],
+  },
+  {
     userId: "USR-STU-101",
     name: "Rahul Sharma",
     email: "student@svvv.edu",

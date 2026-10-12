@@ -14,7 +14,7 @@ export default function TabsBar({ tabs, activeTab, onChange }) {
             onClick={() => onChange(id)}
             className={`flex items-center gap-2 whitespace-nowrap px-4 py-2.5 text-xs md:text-sm font-semibold transition border-b-2 ${
               isActive
-                ? "border-[#238B57] text-[#238B57] font-bold"
+                ? "border-[#0F766E] text-[#0F766E] font-bold"
                 : "border-transparent text-muted hover:text-ink hover:border-line"
             }`}
           >
@@ -22,7 +22,7 @@ export default function TabsBar({ tabs, activeTab, onChange }) {
             {count !== undefined && (
               <span
                 className={`rounded-full px-1.5 py-0.2 text-[10px] ${
-                  isActive ? "bg-emerald-100 text-[#176B45]" : "bg-gray-100 text-gray-600"
+                  isActive ? "bg-teal-50 text-[#0F766E]" : "bg-slate-100 text-slate-600"
                 }`}
               >
                 {count}

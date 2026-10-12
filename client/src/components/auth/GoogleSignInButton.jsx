@@ -5,6 +5,13 @@ import { useToast } from "../../context/ToastContext.jsx";
 
 const REGISTERED_GOOGLE_PRESETS = [
   {
+    email: "sumitsfbi2454@svvv.edu.in",
+    name: "Sumit Jain",
+    role: "Enrolled Student (CSE - SVVV)",
+    badge: "My SVVV Edu ID",
+    badgeColor: "bg-teal-100 text-teal-800 border-teal-300 font-bold",
+  },
+  {
     email: "student@svvv.edu",
     name: "Rahul Sharma",
     role: "Student (BCA / CSE)",
@@ -264,30 +271,30 @@ export default function GoogleSignInButton({ onAuthSuccess, onAuthError }) {
               </div>
             </div>
 
-            {/* Test Unauthorized Account Rejection */}
+            {/* Direct Google Institutional Edu Email or Custom Email */}
             <div className="border-t border-line pt-3 space-y-2">
               <label className="text-[11px] font-bold uppercase tracking-wider text-muted block">
-                Or Test Unauthorized Email (Verify Rejection):
+                Or Sign In with any SVVV Edu ID (@svvv.edu.in):
               </label>
               <form onSubmit={handleCustomSubmit} className="flex gap-2">
                 <input
                   type="email"
                   value={customEmail}
                   onChange={(e) => setCustomEmail(e.target.value)}
-                  placeholder="e.g. unauthorized@gmail.com"
-                  className="input text-xs flex-1"
+                  placeholder="e.g. sumitsfbi2454@svvv.edu.in"
+                  className="input text-xs flex-1 font-medium"
                   disabled={loading}
                 />
                 <button
                   type="submit"
                   disabled={loading || !customEmail.trim()}
-                  className="btn-outline text-xs px-3 py-2 shrink-0 font-bold"
+                  className="btn-primary text-xs px-3.5 py-2 shrink-0 font-bold bg-[#15803D] hover:bg-[#166534]"
                 >
-                  Verify
+                  Sign In
                 </button>
               </form>
               <p className="text-[10px] text-muted">
-                Entering an unregistered address tests our security rule: unauthorized Google emails are denied.
+                Institutional SVVV accounts (@svvv.edu.in and @svvv.edu) are validated immediately. Non-institutional addresses (e.g. gmail.com) are rejected.
               </p>
             </div>
 

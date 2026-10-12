@@ -58,9 +58,9 @@ export default function LoginPage() {
   return (
     <div className="grid min-h-screen lg:grid-cols-12 bg-page">
       {/* Left Column (5/12): Brand Showcase & SVVV Campus Mission */}
-      <div className="hidden lg:col-span-5 bg-gradient-to-b from-[#073B2C] via-[#0E513D] to-[#176B45] p-10 text-white lg:flex lg:flex-col lg:justify-between shadow-2xl relative overflow-hidden">
+      <div className="hidden lg:col-span-5 bg-gradient-to-b from-[#1E293B] via-[#0F766E] to-[#15803D] p-10 text-white lg:flex lg:flex-col lg:justify-between shadow-2xl relative overflow-hidden">
         {/* Background glow circle */}
-        <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-emerald-400/20 blur-3xl" />
+        <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-teal-400/20 blur-3xl" />
 
         <div className="relative z-10">
           <div className="flex items-center gap-3">
@@ -187,7 +187,7 @@ export default function LoginPage() {
                   Institutional Email
                 </label>
                 <div className="relative">
-                  <Mail size={15} className="absolute left-3 top-3 text-muted pointer-events-none" />
+                  {/* <Mail size={15} className="absolute left-3 top-3 text-muted pointer-events-none" /> */}
                   <input
                     id="email"
                     className="input pl-9 text-xs font-medium"
@@ -205,7 +205,7 @@ export default function LoginPage() {
                   Password
                 </label>
                 <div className="relative">
-                  <Lock size={15} className="absolute left-3 top-3 text-muted pointer-events-none" />
+                  {/* <Lock size={15} className="absolute left-3 top-3 text-muted pointer-events-none" /> */}
                   <input
                     id="password"
                     className="input pl-9 text-xs font-medium"

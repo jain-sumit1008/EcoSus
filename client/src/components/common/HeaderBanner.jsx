@@ -9,9 +9,9 @@ export default function HeaderBanner({
 }) {
   const themes = {
     emerald: {
-      bg: "bg-gradient-to-r from-[#073B2C] via-[#0E513D] to-[#176B45]",
-      iconBg: "bg-emerald-400/20 text-emerald-300 ring-1 ring-emerald-300/30",
-      badge: "bg-emerald-500/20 text-emerald-200 border-emerald-400/30",
+      bg: "bg-gradient-to-r from-[#1E293B] via-[#0F766E] to-[#15803D]",
+      iconBg: "bg-teal-400/20 text-[#2DD4BF] ring-1 ring-teal-300/30",
+      badge: "bg-teal-500/20 text-teal-200 border-teal-400/30",
     },
     water: {
       bg: "bg-gradient-to-r from-[#0F3759] via-[#1B4E79] to-[#2585D8]",
@@ -24,13 +24,13 @@ export default function HeaderBanner({
       badge: "bg-amber-500/20 text-amber-100 border-amber-400/30",
     },
     purple: {
-      bg: "bg-gradient-to-r from-[#331853] via-[#4E287C] to-[#6D38AC]",
+      bg: "bg-gradient-to-r from-[#1E293B] via-[#334155] to-[#4E287C]",
       iconBg: "bg-purple-400/20 text-purple-200 ring-1 ring-purple-300/30",
       badge: "bg-purple-500/20 text-purple-100 border-purple-400/30",
     },
     teal: {
-      bg: "bg-gradient-to-r from-[#09393A] via-[#12585A] to-[#178184]",
-      iconBg: "bg-teal-400/20 text-teal-200 ring-1 ring-teal-300/30",
+      bg: "bg-gradient-to-r from-[#1E293B] via-[#0F766E] to-[#0D9488]",
+      iconBg: "bg-teal-400/20 text-[#2DD4BF] ring-1 ring-teal-300/30",
       badge: "bg-teal-500/20 text-teal-100 border-teal-400/30",
     },
   };

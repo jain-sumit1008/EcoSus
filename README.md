@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EcoPulse — Smart Sustainable Campus
 ## SVVV, Indore · MERN Stack Hackathon Project
 
@@ -119,3 +120,7 @@ npm run build
 2. **Alerts as Indications:** Telemetry alerts indicate statistical baseline deviations (possible leaks or after-hours loads), not confirmed physical infrastructure failure.
 3. **Paperless Methodology:** Paper avoided is calculated as: `digital_sessions × 1_sheet_per_register`.
 4. **Tariff & Cost:** Configured at ₹15/kWh for demonstration energy cost projections.
+=======
+# EcoSus
+Sustainable Campus Management System
+>>>>>>> 65cc503b7961dd84eea7c6386451c1dc01d7006c

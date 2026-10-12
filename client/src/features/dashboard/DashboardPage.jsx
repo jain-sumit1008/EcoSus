@@ -81,7 +81,7 @@ export default function DashboardPage() {
   return (
     <div className="space-y-6">
       {/* SVVV Campus Welcome Hero Banner */}
-      <section className="relative overflow-hidden rounded-3xl border border-line bg-gradient-to-r from-[#073B2C] via-[#0E513D] to-[#176B45] p-6 text-white shadow-lg">
+      <section className="relative overflow-hidden rounded-3xl border border-line bg-gradient-to-r from-[#1E293B] via-[#0F766E] to-[#15803D] p-6 text-white shadow-lg">
         <div className="pointer-events-none absolute -right-10 -bottom-10 h-64 w-64 rounded-full bg-emerald-400/10 blur-3xl" />
         <div className="pointer-events-none absolute right-1/4 top-0 h-40 w-40 rounded-full bg-emerald-300/10 blur-2xl" />
 

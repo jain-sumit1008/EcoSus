@@ -4,13 +4,16 @@
 
 :root {
   font-family: "Plus Jakarta Sans", system-ui, sans-serif;
-  color: #172b23;
-  background: #f5f9f6;
+  color: #0F172A;
+  background-color: #F8FAFC;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
+  background-color: #F8FAFC;
+  color: #0F172A;
+  -webkit-font-smoothing: antialiased;
 }
 
 .card {
@@ -18,15 +21,23 @@ body {
 }
 
 .btn-primary {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-white hover:bg-forest disabled:opacity-60 disabled:cursor-not-allowed;
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#166534] disabled:opacity-60 disabled:cursor-not-allowed shadow-sm transition-all duration-150;
 }
 
 .btn-secondary {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-line bg-white px-4 py-2.5 text-sm font-semibold text-ink hover:bg-mint disabled:opacity-60;
+  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-line bg-white px-4 py-2.5 text-sm font-semibold text-ink hover:bg-slate-50 disabled:opacity-60 transition-all duration-150;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-line bg-white px-3.5 py-2 text-sm font-semibold text-ink hover:bg-slate-50 hover:border-slate-300 disabled:opacity-60 transition-all duration-150;
 }
 
 .input {
-  @apply w-full rounded-xl border border-line bg-white px-3 py-2.5 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/20;
+  @apply w-full rounded-xl border border-line bg-white px-3 py-2.5 text-sm outline-none focus:border-teal-600 focus:ring-2 focus:ring-teal-600/20 text-ink placeholder:text-muted;
+}
+
+.select {
+  @apply w-full rounded-xl border border-line bg-white px-3 py-2.5 text-sm outline-none focus:border-teal-600 focus:ring-2 focus:ring-teal-600/20 text-ink;
 }
 
 .label {
